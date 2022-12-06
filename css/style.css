@@ -1,0 +1,23 @@
+/* MARGINI */
+.m-btt{
+    margin-bottom: 2em;
+}
+
+.box{
+    width: 100%;
+    min-height: 3em;
+
+    padding: 1em;
+    border: 1px solid #FFFFFF ;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #006CFA;
+}
+
+.box.nested-box{
+    border: 1px solid #006CFA;
+    
+    background-color: #00E165;
+}
