@@ -21,3 +21,37 @@
     
     background-color: #00E165;
 }
+
+/* ALIGNMENT */
+.start{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: flex-end;
+}
+
+.box.big-box{
+    padding: 3em;
+}
+
+.top{
+    align-self: flex-start;
+}
+.middle{
+    align-self: center;
+}
+.bottom{
+    align-self: flex-end;
+}
+
+/* JUSTIFY CONTENT */
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
+}

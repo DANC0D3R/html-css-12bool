@@ -1,5 +1,5 @@
 /* RESET */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,6 +30,12 @@
 }
 
 /* COLONNE */
+.col-xs{
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
 .col-xs-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);

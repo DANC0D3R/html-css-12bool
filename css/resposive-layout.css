@@ -209,7 +209,7 @@
 }
 
 /* LARGE */
-@media screen and (min-width: 576px){
+@media screen and (min-width: 992px){
     /* CONTAINER */
     .container-lg{
         max-width: 600px;
